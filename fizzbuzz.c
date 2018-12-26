@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 int n;
-int match = 0;
 
 int main() {
-
   for ( n=1; n<=100; n++ ) {
     if ( n % 15 == 0 ) {
       printf("FizzBuzz\n");
